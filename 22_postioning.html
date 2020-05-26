@@ -9,14 +9,27 @@
             width: 100px;
             height: 100px;
         }
+        .container {
+            background-color: #f4f4f4;
+            width: 400px;
+            height: 400px;
+            position: relative;
+        }
         #box-1 {
             background-color: red;
+            position: static; /* default position */
         }
         #box-2 {
+            position: relative;
             background-color: yellow;
+            top: 50px;
+            left: 50px;
         }
         #box-3 {
             background-color: green;
+            left: 130px;
+            top: 150px;
+            position: absolute;
         }
         #box-4 {
             background-color: blue;
@@ -29,8 +42,10 @@
 <body>
     <div id="box-1" class="box"></div>
     <div id="box-2" class="box"></div>
+<div class="container">    
     <div id="box-3" class="box"></div>
     <div id="box-4" class="box"></div>
+</div>
     <div id="box-5" class="box"></div>
     
 </body>
