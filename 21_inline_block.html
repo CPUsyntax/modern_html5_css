@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inline & Block Styling</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
         h1 {
             background-image: url('./images/transport-5099097_1920.jpg');
             background-repeat: no-repeat;
@@ -13,10 +16,49 @@
             font-size: 3rem;
             text-align: center;
         }
+        li {
+            display: inline;
+        }
+        li a {
+            padding-right: 20px;
+        }
+        img {
+            display: block;
+            margin:  0 auto 40px;
+        }
+        .box {
+            background-color: #f4f4f4;
+            display: inline-block;
+            margin-bottom: 15px;
+            padding: 20px;
+            width: 32%;
+        }
     </style>
 </head>
 <body>
     <h1>Hello Jesus</h1>
+    <ul>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Fashion</a></li>
+    </ul>
+
+    <br><br>
+
+    <img src="./images/download.jpeg" alt="">
+
+    <div class="box">
+        <h3>heading</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quis vitae quaerat assumenda vero, exercitationem tempore a repellendus culpa ullam!</p>
+    </div>
+    <div class="box">
+        <h3>heading</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quis vitae quaerat assumenda vero, exercitationem tempore a repellendus culpa ullam!</p>
+    </div>
+    <div class="box">
+        <h3>heading</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quis vitae quaerat assumenda vero, exercitationem tempore a repellendus culpa ullam!</p>
+    </div>
     
     
 </body>
