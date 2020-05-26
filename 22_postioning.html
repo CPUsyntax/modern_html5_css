@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Positioning</title>
     <Style>
+        body {
+            height: 8000px;
+        }
         .box {
             width: 100px;
             height: 100px;
@@ -24,6 +27,7 @@
             background-color: yellow;
             top: 50px;
             left: 50px;
+            z-index: 1;
         }
         #box-3 {
             background-color: green;
@@ -33,9 +37,15 @@
         }
         #box-4 {
             background-color: blue;
+            right: 0px;
+            bottom: 0px;
+            position: absolute;
         }
         #box-5 {
             background-color: orange;
+            position: fixed;
+            position: sticky;
+            top: 0;
         }
     </Style>
 </head>
