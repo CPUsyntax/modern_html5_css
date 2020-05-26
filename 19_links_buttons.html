@@ -5,19 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links & Buttons</title>
     <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
         h1 {
             background-color: beige;
-            border: 2px solid black;
+            /* border: 2px solid black; */
             font-size: 4rem;
             max-width: 500px;
             margin: 20px auto;
             text-align: center;
+        }
+        a {
+            color: #333;
+            text-decoration: none;
+
+        }
+        a:hover {
+            color: coral;
+            font-size: 40px;
+            border: 2px solid red;
+            /* text-decoration: underline; */
+        }
+
+        /* a:visited {
+            color: red;
+        } */
+        /* a:active {
+            color: red;
+        } */
+        .btn {
+            background: #4c6ca0;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+        }
+        .btn:hover {
+            color: #f4f4f4;
+            background: #446190;
         }
 
     </style>
 </head>
 <body>
     <h1>Hello Jesus</h1>
+    <a href="#" class="btn">Click Me</a>
+    <br>
+    <br>
+    <button class="btn">My Button</button>
     
 </body>
 </html>
