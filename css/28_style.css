@@ -75,10 +75,20 @@ p {
     clear: both;
 }
 
+.l-heading {
+    font-size: 40px;
+}
+
+/* Padding */
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
 /* Navbar */
 #navbar {
     background: #333;
     color: #fff;
+    /* color: #fff; */
     overflow: auto;
 }
 
@@ -177,6 +187,55 @@ p {
     margin-bottom: 10px;
 }
 
+/* About Info */
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+
+}
+
+#about-info .info-right img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+/* Testimonials */
+#testimonials {
+    height: 600px;
+    background: url(../images/hbt_test-bg.jpg) no-repeat center center/cover;
+    padding-top: 40px;
+}
+
+#testimonials .container h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+#testimonials .testimonial {
+    border-radius: 5px;
+    margin-bottom: 40px;
+    padding: 20px;
+    opacity: 0.9;
+
+}
+
+#testimonials .testimonial img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    width: 100px;
+}
+
 /* Footer */
 #main-footer {
     background: #444;
@@ -184,3 +243,4 @@ p {
     padding: 20px;
     text-align: center;
 }
+
