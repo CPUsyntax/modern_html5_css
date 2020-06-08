@@ -3,7 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vh & Vw</title>
+    <title>Vh & Vw Units</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      header {
+        background: #333 url("https://source.unsplash.com/daily?moon") no-repeat
+          center center/cover;
+        color: #fff;
+        height: 100vh;
+        /* width: 50vw; */
+        text-align: center;
+        padding: 2rem;
+        padding-top: 5rem;
+      }
+      header h1 {
+        font-size: 3rem;
+      }
+      header p {
+        margin: 1rem 0;
+      }
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        background: #f4f4f4;
+        color: #333;
+        padding: 0.75rem 2rem;
+      }
+      section {
+        padding: 2rem;
+      }
+      @media (max-height: 450px) {
+        header {
+          padding-top: 2rem;
+        }
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Welcome To Our Website</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id doloribus
+        enim cumque provident. Totam, laudantium.
+      </p>
+      <a href="#" class="btn">Find Out More</a>
+    </header>
+
+    <section>
+      <h3>About Our Company</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+        soluta debitis mollitia dicta distinctio, cum, nesciunt pariatur eaque
+        eveniet quos beatae repellat tenetur iste, amet dolore itaque placeat
+        aliquam animi perferendis sed corporis. Dicta, consequuntur sequi
+        numquam labore quod in dolores ad atque, quisquam temporibus rem! Optio
+        expedita laboriosam voluptatum?
+      </p>
+    </section>
+  </body>
 </html>
