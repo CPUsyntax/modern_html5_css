@@ -53,7 +53,7 @@ bg-light {
 }
 
 .hero::before {
-  content: "Hi BB";
+  /* content: "Hi BB"; */
   position: absolute;
   top: 0;
   left: 100;
